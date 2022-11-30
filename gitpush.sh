@@ -1,5 +1,8 @@
 #!/bin/bash
-git add .
+echo 'Enter the file name you want to add:'
+read fileName
+
+git add "$fileName"
 
 echo 'Enter the commit message:'
 read commitMessage
